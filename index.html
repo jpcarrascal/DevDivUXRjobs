@@ -12,24 +12,48 @@
         justify-content: center;
         background: linear-gradient(0deg, rgb(52,165,241), rgb(15,120,207));
     }
+    .wrapper {
+        font-family: Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+        background-color: white;
+    }
+
     .content {
-      max-width: 500px;
-      margin: auto;
-      padding: 2em;
-      background-color: white;
+        max-width: 500px;
+        margin: auto;
+        background-color: white;
+    }
+
+    #products { 
+        width: 200px;
+        margin: auto;
     }
     </style>
     </head>
 
     <body>
     
-    <div class="content">
-
-        <div>
+    <div class="wrapper">
+        <img id="products" src="images/products.png" />
+        <div class="content">
             <h1 id="project_title">DevDiv UXR jobs</h1>
             <h2 id="project_tagline">Open positions at Microsoft’s DevDiv UX Research Team</h2>
         
-            <p>Microsoft’s Developer Division (DevDiv) delivers tools to make every developer successful and productive in building all types of applications in any language for any platform. The DevDiv UX Research Team brings a world-class user experience to Visual Studio, .NET, and Azure. Millions of developers around the world use these tools every day to build rich applications, and use is growing at a phenomenal rate. The applications built span web, mobile, desktop, cloud, gaming, machine learning, and IoT (Internet of Things).</p>
+            <p>
+                The Developer Division (DevDiv) at Microsoft delivers tools to make every developer
+                successful and productive in building all types of applications in any language for any platform.
+                The DevDiv UX Research Team brings a world-class user experience to
+                <a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a>,
+                <a href="https://dotnet.microsoft.com/" target="_blank">.NET</a>,
+                and <a href="https://azure.microsoft.com/developer/" target="_blank">Azure</a>.
+                Millions of developers around the world use these tools every day to build rich applications,
+                and use is growing at a phenomenal rate. The applications built span
+                web, mobile, desktop, cloud, gaming, machine learning, and IoT (Internet of Things).
+            </p>
         
             <p>We currently have these open positions for UX researchers the Developer Division:</p>
             
