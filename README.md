@@ -1,2 +1,2 @@
 # ImHiring
-Simple website with contact information and links to open positions in my team.
+Simple website with contact information and links to open positions in our team.
