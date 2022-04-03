@@ -1,2 +1,2 @@
-# ImHiring
-Simple website with contact information and links to open positions in our team.
+# DevDiv open positions
+Open positions at Microsoft’s DevDiv UX Research Team
